@@ -1,0 +1,15 @@
+# Core dependencies. Install with:  pip install -r requirements.txt
+# (Tkinter ships with the standard CPython installer, so the GUI needs nothing extra.)
+pillow
+numpy
+scipy
+
+# Optional: only needed for `--bg ai` (model-based subject matting of non-chroma backgrounds).
+# Install separately:  pip install rembg onnxruntime
+# rembg
+# onnxruntime
+
+# Also required (external, not a pip package): ffmpeg + ffprobe on PATH.
+#   Windows:  winget install Gyan.FFmpeg
+#   macOS:    brew install ffmpeg
+#   Linux:    sudo apt install ffmpeg   (or your distro's package)
